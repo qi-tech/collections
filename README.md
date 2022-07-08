@@ -182,3 +182,17 @@ Nas demais seções desse capítulo explicaremos como é feito o processo de enc
 <br>
 </sub>
 </sub>
+
+
+## Utilizando o serviço de Integração
+
+Após as configurações iniciais renomeie o arquivo `config_demo.py` para `config.py` e edite as informações conforme as suas configurações.
+
+Faça a instalação das dependências listadas no `requirement.txt`
+
+```bash
+pip install -r requirements.txt
+```
+
+Para realizar os testes iniciais conforme documentação utilize o arquivo `starter.py`.
+Esse script Python irá realizar primeiramente um GET e na sequência um POST, de acordo com os exemplos acima. Observe as respostas e se a sua integração foi corretamente configurada.
