@@ -86,6 +86,6 @@ class StartTest:
          
 
 if __name__ == "__main__":
-    request_client = StartTest(base_url="https://api-auth.qitech.app")
+    request_client = StartTest()
     request_client.test_get()
     request_client.test_post()
